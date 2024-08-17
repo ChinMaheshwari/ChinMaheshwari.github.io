@@ -3,46 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professor [Your Name] - Home</title>
+    <title>Professor [Your Name]</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Professor [Your Name]</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="profile.jpg" alt="Professor [Your Name]" class="profile-image">
+            <h1>Professor [Your Name]</h1>
+            <h2>[Your Position], [Your Institution]</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#seminars">Seminars</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Welcome to the website of Professor [Your Name], [Your Position] at [Your Institution]. My research interests include [Your Research Interests].</p>
+            <p>Hello! I am Professor [Your Name], specializing in [Your Specialization]. My research focuses on [Research Areas]. I have been a part of [Your Institution] since [Year].</p>
         </section>
         <section id="research">
             <h2>Research</h2>
-            <p>My research focuses on [Research Areas]. I am particularly interested in [Specific Research Topics].</p>
+            <p>My research is centered around [Your Research Interests]. I am particularly interested in [Specific Topics]. Below are some of my key research contributions:</p>
+            <ul>
+                <li>Research Project 1: Brief description.</li>
+                <li>Research Project 2: Brief description.</li>
+            </ul>
         </section>
         <section id="publications">
             <h2>Publications</h2>
             <ul>
-                <li><strong>Paper Title 1</strong>, Journal Name, Year. [Link to Paper]</li>
-                <li><strong>Paper Title 2</strong>, Journal Name, Year. [Link to Paper]</li>
-                <!-- Add more publications here -->
+                <li><strong>Paper Title 1</strong>, Journal Name, Year. <a href="link-to-paper.pdf" target="_blank">[PDF]</a></li>
+                <li><strong>Paper Title 2</strong>, Journal Name, Year. <a href="link-to-paper.pdf" target="_blank">[PDF]</a></li>
             </ul>
         </section>
         <section id="teaching">
             <h2>Teaching</h2>
-            <p>I teach courses on [Course Subjects]. My current courses include:</p>
+            <p>I teach a variety of courses in [Your Field]. Some of the courses I have taught include:</p>
             <ul>
-                <li><strong>Course 1:</strong> Description of the course.</li>
-                <li><strong>Course 2:</strong> Description of the course.</li>
-                <!-- Add more courses here -->
+                <li><strong>Course 1:</strong> Description of the course. <a href="link-to-course-materials">[Course Materials]</a></li>
+                <li><strong>Course 2:</strong> Description of the course. <a href="link-to-course-materials">[Course Materials]</a></li>
+            </ul>
+        </section>
+        <section id="seminars">
+            <h2>Seminars & Talks</h2>
+            <p>I have presented seminars and talks at various conferences and institutions. Here are some of the recordings:</p>
+            <ul>
+                <li><strong>Seminar 1:</strong> Title of the seminar. <a href="link-to-video" target="_blank">[Watch Video]</a></li>
+                <li><strong>Seminar 2:</strong> Title of the seminar. <a href="link-to-video" target="_blank">[Watch Video]</a></li>
             </ul>
         </section>
         <section id="contact">
@@ -51,7 +66,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Professor [Your Name]. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Professor [Your Name]. All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
